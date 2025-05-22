@@ -1,0 +1,24 @@
+### Instruções para replicar a API
+
+Python 3.10.10
+
+1 - Crie um ambiente virtual:
+
+python -m venv .venv
+
+2 - Instale os requirements.
+
+pip install -r requirements.txt
+
+3 - Crie uma pasta chamada artefatos na raíz do projeto
+
+4 - Execute o treinamento do modelo.ipynb
+
+5 - Realize a execução da API
+
+python main.py
+
+A API irá rodar na porta 5000
+
+O payload que ela espera é o seguinte:
+
